@@ -1,5 +1,8 @@
 # Detecting Invisible People
 
+[\[ICCV 2021 Paper\]](https://openaccess.thecvf.com/content/ICCV2021/html/Khurana_Detecting_Invisible_People_ICCV_2021_paper.html) [\[Website\]](http://www.cs.cmu.edu/~tkhurana/invisible.htm)
+[Tarasha Khurana](http://www.cs.cmu.edu/~tkhurana/), [Achal Dave](http://www.achaldave.com), [Deva Ramanan](http://www.cs.cmu.edu/~deva/)
+
 ## Introduction
 
 This repository contains code for *Detecting Invisible People*.
