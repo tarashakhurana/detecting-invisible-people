@@ -64,10 +64,9 @@ are hardcoded in the files and will have to be manually changed.
 If you find this code useful in your research, please consider citing the following paper:
 
     @inproceedings{khurana2021detecting,
-      title={Detecting invisible people},
+      title={{Detecting Invisible People}},
       author={Khurana, Tarasha and Dave, Achal and Ramanan, Deva},
-      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-      pages={3174--3184},
+      booktitle={{IEEE/CVF International Conference on Computer Vision (ICCV)}},
       year={2021}
     }
 
