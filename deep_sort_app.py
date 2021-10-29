@@ -425,6 +425,8 @@ if __name__ == "__main__":
         tn = -1
     for seq in sequences:
         print(seq)
+        if 'FRCNN' not in seq:
+            continue
         detection_file = "/data/tkhurana/deep_sort/resources/detections/MOT17_train/" + seq + ".npy"
         output_file = "/data/tkhurana/tk/deep_sort/results/" + args.output_file + "/{}.txt".format(seq)
         if os.path.exists(output_file):
