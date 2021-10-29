@@ -8,7 +8,7 @@
 
 This repository contains code for *Detecting Invisible People*.
 We extend the original [DeepSORT](https://github.com/nwojke/deep_sort) algorithm to
-reason about the localization of people while they are completely occluded.
+localize people even while they are completely occluded in a video.
 See the [arXiv preprint](https://arxiv.org/abs/2012.08419) for more information.
 
 ## Dependencies
@@ -86,5 +86,9 @@ please open an issue.
 ## Note
 
 Although it is easy to run any monocular depth estimator and store their output (usually given as
- disparity) in an `.npy` file, I will likely release my depth maps for the MOT17 dataset over the
-Halloween weekend.
+ disparity) in an `.npy` file, I have added a script in `tools/demo_images.py` which can save the `.npy`
+files for you. Note that this script should be run after setting up the [MegaDepth](https://github.com/zl548/MegaDepth)
+codebase and copying this file to its root directory. I will likely also release my own depth maps for the MOT17 dataset
+over the Halloween weekend.
+
+If you try to run the metrics, I have given my [groundtruth JSON](./evaluation) (as expected by `pycocotools`).
