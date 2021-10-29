@@ -40,7 +40,7 @@ MOT17/
 ------ det/
 ```
 
-The folder `img1Depth` stores the **disparity** in `.npy` format. Originally, the paper runs
+The folder `img1Depth` stores the **normalized disparity** in `.npy` format. Originally, the paper runs
 the method on depth given by the [MegaDepth](https://github.com/zl548/MegaDepth) depth estimator.
 
 Given the above folder structure, generate the appearance features for your detections as
