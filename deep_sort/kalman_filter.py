@@ -298,8 +298,7 @@ class KalmanFilter(object):
             `measurements[i]`.
 
         """
-        mean, covariance = self.project(mean, covariance,
-                            temporal_noise=temporal_noise, tn=tn)
+        mean, covariance = self.project(mean, covariance, tn=tn)
         if only_position:
             mean, covariance = mean[:2], covariance[:2, :2]
             measurements = measurements[:, :2]
